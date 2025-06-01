@@ -10,8 +10,7 @@ const userSchema = new mongoose.Schema({
     enum: ['manufacturer', 'consumer', 'officer'],
     default: 'consumer',
   },
-  password: { type: String, required: true },
-  connection_id: { type: String, default: null },
+  password: { type: String, required: true }
 }, { timestamps: true });
 
 // Hash password before saving
