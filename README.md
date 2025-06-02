@@ -40,10 +40,7 @@ Agri_Passport/
 │   ├── middleware/          # Middlewares (auth, error handling, etc.)
 │   ├── models/              # Mongoose models or data schemas
 │   ├── routes/              # API routing definitions
-│   ├── tests/               # Comprehensive test suite
-│   │   ├── unit/            # Unit tests for controllers & models
-│   │   ├── integration/     # API integration tests
-│   │   └── e2e/             # End-to-end workflow tests
+│   ├── tests/               # Comprehensive test cases
 │   ├── utils/               # Utility functions
 │   ├── .env                 # Environment variables (example)
 │   ├── .gitignore           # Git ignored files
