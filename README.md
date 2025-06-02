@@ -40,16 +40,16 @@ Agri_Passport/
 │   ├── middleware/          # Middlewares (auth, error handling, etc.)
 │   ├── models/              # Mongoose models or data schemas
 │   ├── routes/              # API routing definitions
+│   ├── tests/               # Comprehensive test suite
+│   │   ├── unit/            # Unit tests for controllers & models
+│   │   ├── integration/     # API integration tests
+│   │   └── e2e/             # End-to-end workflow tests
 │   ├── utils/               # Utility functions
 │   ├── .env                 # Environment variables (example)
 │   ├── .gitignore           # Git ignored files
 │   ├── index.js             # Application entry point
 │   ├── package.json         # Node dependencies
 │   └── swagger.js           # Swagger documentation setup
-│   ├── tests/               # Comprehensive test suite
-│   │   ├── unit/            # Unit tests for controllers & models
-│   │   ├── integration/     # API integration tests
-│   │   └── e2e/             # End-to-end workflow tests
 │
 ├── frontend/                # Next.js based React UI
 │   ├── api/                 # API service utilities
