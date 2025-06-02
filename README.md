@@ -131,7 +131,7 @@ npm run dev
 
 ---
 
-🧪 Testing 
+## 🧪 Testing 
 
 **Overview**
 The backend includes a comprehensive testing suite with 35 tests covering unit, integration, and end-to-end scenarios. The test suite ensures code quality, reliability, and security of the blockchain-based traceability system.
@@ -144,10 +144,8 @@ The backend includes a comprehensive testing suite with 35 tests covering unit, 
 5. Error Handling: Comprehensive error scenarios
 
 **Running Tests**
-Run All Tests
-npm test
-Run Tests with Coverage Report
-npm run test:coverage
+1. Run All Tests: npm test
+2. Run Tests with Coverage Report: npm run test:coverage
 
 **Test Results**
 1. Test Suites: 8 passed, 8 total
